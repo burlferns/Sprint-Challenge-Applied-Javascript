@@ -39,7 +39,7 @@ Ans2; An event is a user interaction with the webpage, such as the user clicking
 Ans3:An event listener is JavaScript code that sets up the webpage to detect user initiated events or evnts that are certain situations (as described in Ans2 above) and then when these events happen, the event listener calls a function.
 
 4. Why would we convert a NodeList into an Array?
-Ans4:Converting a NodeList to an Array gives us access to all the methods in the Array.prototype that the NodeList does not have. Now we can use these methods on the data of the NodeList.
+Ans4:Converting a NodeList to an Array gives us access to all the methods in the Array.prototype that the NodeList does not have. Now we can use these methods on the data of the NodeList that is now in an array.
 
 5. What is a component?
 A component is a reuseable group of HTML, CSS and JavaScript code that can be used to easily create similar looking content that is styled the same way. The different content items are then usually placed in a certain pattern on a webpage.
