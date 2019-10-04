@@ -1,3 +1,28 @@
+// ******* The following was not mentioned in the instructions, but is in the gif
+let div = document.createElement('div');
+div.classList.add('tab_all');
+div.textContent="ALL";
+div.style.background="white";
+div.style.color="black";
+div.style.border="1px solid black";
+div.style.paddingLeft="10px";
+div.style.paddingRight="10px";
+div.style.fontSize="12px";
+div.style.letterSpacing="2px";
+div.style.fontWeight="bold";
+div.style.textTransform="uppercase";
+
+const addPointTab = document.querySelector(".topics");
+addPointTab.appendChild(div);
+
+
+
+
+
+
+
+
+
 // Step 2: Create Tabs
 // -----------------------
 // Using axios send a GET request to the address: https://lambda-times-backend.herokuapp.com/topics
@@ -25,6 +50,8 @@ axios
   .catch(error => {
     console.log("The topics data was not returned",error);
 });
+
+
 
 
 
